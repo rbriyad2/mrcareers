@@ -1,0 +1,85 @@
+.navbarfull{
+  background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+  margin-right: 20px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #757575;
+  font-size: 16px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  transition: all linear .3s;
+}
+.menu ul li a:hover{
+    color: #7E90FE;
+}
+.startapplyingBtn {
+  background: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  transition: all linear .3s;
+}
+.startapplyingBtn:hover{
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 1px rgba(199, 16, 245, 0.75);
+}
+.startapplyingBtn a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+
+/* --------Responsive Start--------- */
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .container {
+    width: 100%;
+}
+  .navbarfull {
+    padding: 0 40px;
+}
+ 
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .container {
+    width: 100%;
+}
+  .navbarfull {
+    padding: 0 40px;
+}
+
+
+}
+
+
+@media screen and (max-width: 575.99px) {
+  .container {
+    width: 100%;
+}
+  .navbarfull {
+    padding: 0 20px;
+}
+  .navbar {
+    display: block;
+}
+.menu ul {
+  display: block;
+}
+}

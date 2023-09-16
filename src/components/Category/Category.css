@@ -1,0 +1,71 @@
+.jobcategory {
+  padding: 40px;
+  background: linear-gradient(
+    90deg,
+    rgba(126, 144, 254, 0.05) 0%,
+    rgba(152, 115, 255, 0.05) 100%
+  );
+  border-radius: 8px;
+  transition: all linear .3s;
+}
+.jobcategory:hover{
+  background-color: #dcfc79;
+}
+
+.jobcategory:hover img{
+  background: #fffefe;
+}
+.jobcategory img {
+  padding: 15px;
+  background: linear-gradient(90deg, rgba(126, 144, 254, 0.10) 0%, rgba(152, 115, 255, 0.10) 100%);
+  border-radius: 8px;
+  text-align: center;
+}
+.categoryicon img{
+    width: 40px;
+    height: 40px;
+}
+.jobcategory h4 {
+  color: #474747;
+  font-size: 20px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  margin-top: 32px;
+}
+.jobcategory p {
+  color: #a3a3a3;
+  font-size: 16px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: 8px;
+}
+
+
+
+/* css responsive start */
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+
+
+
+@media screen and (max-width: 575.99px) {
+  .jobcategory {
+    padding: 20px;
+    
+}
+.jobcategorys {
+  padding-bottom: 0px;
+  width: 95%;
+}
+.jobcategoryHeader p {
+  width: 90%;
+}
+}

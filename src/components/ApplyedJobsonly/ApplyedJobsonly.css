@@ -1,0 +1,148 @@
+
+
+.ApplyedJobsonly h2 {
+  color: #1a1919;
+  font-size: 32px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  text-align: center;
+  padding: 80px 0;
+  background: linear-gradient(
+    90deg,
+    rgba(126, 144, 254, 0.05) 0%,
+    rgba(152, 115, 255, 0.05) 100%
+  );
+}
+
+.appliedjobonly {
+  border-radius: 8px;
+  border: 1px #e8e8e8 solid;
+  padding: 30px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.jobinfoView {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jobinfocontent {
+  display: flex;
+  align-items: center;
+}
+.companylogo {
+  background: #f4f4f4;
+  border-radius: 8px;
+  padding: 95px 47px;
+  margin-right: 32px;
+
+}
+.companylogo img{
+    width: 190px;
+}
+.contents h3 {
+  color: #474747;
+  font-size: 24px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.contents h5 {
+  color: #757575;
+  font-size: 24px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+.remotebtn button {
+  padding: 9px 19px;
+  border-radius: 4px;
+  border: 1px #7e90fe solid;
+  background-color: transparent;
+  margin-right: 16px;
+  border-radius: 4px;
+  color: #7e90fe;
+  font-size: 16px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.locationSalary p {
+  color: #757575;
+  font-size: 20px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+}
+.viewdetailbtn .getstarted{
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+
+/* css responsive start */
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+  
+  .jobinfocontent {
+    display: block;
+  }
+  .appliedjobonly {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.contents h3 {
+  margin-top: 20px;
+}
+.viewdetailbtn{
+  text-align: center;
+}
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .jobinfoView {
+    display: block;
+  }
+  
+  .jobinfocontent {
+    display: block;
+  }
+  .appliedjobonly {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.contents h3 {
+  margin-top: 20px;
+}
+.viewdetailbtn{
+  text-align: center;
+}
+  
+}
+
+
+@media screen and (max-width: 575.99px) {
+  .jobinfoView {
+    display: block;
+  }
+  
+  .jobinfocontent {
+    display: block;
+  }
+  .appliedjobonly {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.contents h3 {
+  margin-top: 20px;
+}
+.viewdetailbtn{
+  text-align: center;
+}
+  
+}

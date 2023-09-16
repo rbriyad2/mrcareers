@@ -1,0 +1,79 @@
+.feturedJobs{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 24px;
+}
+.viewall{
+    text-align: center;
+}
+.hidebtn{
+    display: none;
+}
+.seeAllJobsBtn{
+    background: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
+  border: none;
+  padding: 19px 28px;
+  border-radius: 8px;
+  transition: all linear .3s;
+  color: white;
+font-size: 20px;
+font-weight: 800;
+font-family: "Manrope", sans-serif;
+cursor: pointer;
+margin-top: 40px;
+}
+
+.seeAllJobsBtn:hover{
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 1px rgba(199, 16, 245, 0.75);
+}
+
+/* css responsive start */
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .feturedJobs {
+        margin-bottom: 20px;
+    }
+    .jobcategorys {
+        padding: 0 20px;
+    }
+    .container {
+        width: 100%;
+    }
+    .fecturedJobInfo {
+        margin: 20px 0;
+    }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .feturedJobs {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .jobcategorys {
+        padding: 0px 35px;
+    }
+    .container {
+        width: 100%;
+    }
+    .fecturedJobInfo {
+        margin: 20px 0;
+    }
+}
+
+
+@media screen and (max-width: 575.99px) {
+    .feturedJobs {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .container {
+        width: 100%;
+    }
+    .fecturedJobInfo {
+        margin: 20px 0;
+        width: 95%;
+    }
+}

@@ -1,0 +1,123 @@
+.jobDetails h2{
+    text-align: center;
+    margin: 20px 0;
+    color: #1A1919;
+font-size: 32px;
+font-family: "Manrope", sans-serif;
+font-weight: 800;
+}
+.viewjobDetails{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 24px;
+    margin-bottom: 50px;
+}
+
+.jobdetailsInfo{
+    color: #757575;
+font-size: 16px;
+font-family: "Manrope", sans-serif;
+font-weight: 500;
+line-height: 32px;
+margin: 24px 0;
+}
+.jobdetailsInfoBold{
+    color: #1A1919;
+    font-size: 16px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    line-height: 32px;
+}
+
+.jobdetailRight h6{
+    margin-bottom: 24px;
+    color: #1A1919;
+font-size: 20px;
+font-family: "Manrope", sans-serif;
+font-weight: 800;
+}
+.jobdetailRight{
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.10) 0%, rgba(152, 115, 255, 0.10) 100%);
+    border-radius: 8px;
+    padding: 30px;
+}
+.salaryinfo{
+    margin-top: 24px;
+    color: #757575;
+font-size: 20px;
+font-family: "Manrope", sans-serif;
+font-weight: 500;
+line-height: 33px;
+}
+.jobtitledetails{
+    color: #757575;
+font-size: 20px;
+font-family: "Manrope", sans-serif;
+font-weight: 500;
+line-height: 33px;
+}
+.jobPhonedetails{
+    color: #757575;
+font-size: 20px;
+font-family: "Manrope", sans-serif;
+font-weight: 500;
+line-height: 33px;
+}
+.jobemailDetails{
+    color: #757575;
+font-size: 20px;
+font-family: "Manrope", sans-serif;
+font-weight: 500;
+line-height: 33px;
+}
+.jobLocation{
+    color: #757575;
+font-size: 20px;
+font-family: "Manrope", sans-serif;
+font-weight: 500;
+line-height: 33px;
+}
+.applynowBtn{
+    margin-top: 24px;
+    text-align: center;
+}
+.boldspan{
+    color: #474747;
+font-size: 20px;
+font-family: "Manrope", sans-serif;
+font-weight: 800;
+line-height: 33px;
+}
+.contactinformation{
+    margin-top: 25px;
+}
+.Jobdetailsicon{
+    width: 24px;
+    height: 24px;
+    color: #7E90FE ;
+}
+
+.gobackbtn{
+background: transparent;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all linear .3s;
+}
+.gobackbtn:hover{
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 1px rgba(199, 16, 245, 0.75);
+    border-radius: 15px;
+}
+.gobackicon{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    margin-top: 2px;
+}
+.gobackbtns{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

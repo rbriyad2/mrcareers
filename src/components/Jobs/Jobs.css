@@ -1,0 +1,73 @@
+.fecturedJobInfo{
+    border-radius: 8px; 
+    border: 1px #E8E8E8 solid;
+    padding: 24px;
+}
+.fecturedJobInfo h3{
+    color: #474747;
+    font-size: 24px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    margin-top: 32px;
+    cursor: pointer;
+}
+.fecturedJobInfo img{
+cursor: pointer;
+}
+.fecturedJobInfo p{
+    color: #757575;
+    font-size: 20px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.remoteBtn button{
+padding: 9px 19px;
+color: #7E90FE;
+font-size: 16px;
+font-family: "Manrope", sans-serif;
+font-weight: 800;
+border: 1px #7E90FE solid;
+margin-right: 16px;
+background-color: #fff;
+cursor: pointer;
+border-radius: 4px;
+}
+.locationSalary{
+    display: flex;
+}
+.locationSalary p{
+    color: #757575;
+    font-size: 20px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    margin: 16px 0 24px 0;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.fecturedJobInfo a{
+    color: white;
+    font-size: 20px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 4px;
+    padding: 11px 18px;
+    text-decoration: none;
+}
+.salaryUSD{
+ margin-right: 8px;
+ font-size: 24px;
+}
+.locationicon{
+    margin-right: 8px;
+    font-size: 24px;
+}
+
+.fecturedJobInfo a{
+    margin-top: 40px;
+}
